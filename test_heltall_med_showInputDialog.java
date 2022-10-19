@@ -50,6 +50,8 @@
     }
 
     public static void main(String[] args) {
-        int n = sjekkTall("Hvor mange poeng fikk du, fra 0 til 9?");
-        System.out.println(n);
+        int o = inputToInt("Tast inn et heltall");
+        int n = sjekkTall("Tast inn et heltall mellom 0 og 9");
+
+        System.out.println(n +", "+o);
     }
